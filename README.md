@@ -19,3 +19,13 @@ I cannot simply fine tune a model, because it already knows modern things and I 
 So my goal is to train a model from scratch using only text from a certain time period, these texts will be free of modern interpretaion, translation, modern annotations, etc.
 
 Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on.
+
+# Update July 9th 2025
+
+I've set my time period for 1800-1850 and region: London 
+
+I've gathered a list of texts, books, documents 
+
+So far I've gotten 50 as txt files and will begin training NanoGPT soon 
+
+Will update this as long as progress is made
