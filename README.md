@@ -3,7 +3,7 @@ An LLM trained only on data from certain time periods to reduce modern bias.
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
 
-Built on nanoGPT by Andrej Karpathy.
+Built on nanoGPT by Andrej Karpathy. Core training scripts and model architecture are his work. 
 
 # Project Goals 
 
@@ -11,13 +11,11 @@ TimeCapsule LLM is an expirimental project that will only be trained on texts wr
 
 # Why fine tuning isn't enough 
 
-If you just fine tune a pre-trained model, your LLM is still gonna know modern concepts. Of course achieving zero modern bias is difficult but I want to get as close as possible to this. That's why training a model from scratch is the only way to achieve this goal.
+If you just fine tune a pre-trained model, your LLM is still gonna know modern concepts. Of course achieving zero modern bias is difficult but I want to get as close as possible to this. Getting no modern bias requires training a model from scratch.
 
 # Expected outcomes 
 
-So my goal is to train a model from scratch using only text from a certain time period, these texts will be free of modern interpretaion, translation, modern annotations, etc.
-
-Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on.
+Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldnt recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.
 
 # Progress Updates
 
@@ -47,5 +45,38 @@ Right now it produces sentences that lack full sentence structure and overall ju
 
 # Upcoming Plans 
 
-I'm going to start creating a list of books, ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.
+I'm going to start work on version 1, instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.
+
+# How to Use This Project 
+
+This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.
+
+# Step 1: Gather and Prepare Historical Texts 
+
+Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850)
+
+You can use download_texts_improved.py to download books for you if you need to.
+
+Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.
+
+prepare_dataset.py should work fine.
+
+# Step 2: Build a Custom Tokenizer
+
+Run train_tokenizer.py or train_tokenizer_hf.py on the cleaned data.
+This will give you vocab.json and merges.txt
+
+Thes files define vocab and merge rules for your model
+
+# Step 3: Train Your Model (nanoGPT) 
+
+Refer to nanoGPT for the training process.
+
+You can train a different LLM if you want, but I used nanoGPT 
+
+# Training Specs
+
+GPU: Geforce rtx 4060
+CPU: i5-13400F 
+Ram: 16GB DDR5.
 
