@@ -1,4 +1,4 @@
-# TimeCapsuleLLM
+# TimeCapsule LLM
 An LLM trained only on data from certain time periods to reduce modern bias.
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
