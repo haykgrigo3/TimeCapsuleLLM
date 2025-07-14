@@ -37,6 +37,8 @@ Trained nanoGPT with 187MB of historial text data.
 
 Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentences makes no sense but the LLM is recognizing I'm asking about a person.
 
+![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+
 There is no mention of modern concetps, outputs contain mostly words and phrasing from the 1800's.
 
 It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. 
