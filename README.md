@@ -70,7 +70,7 @@ Thes files define vocab and merge rules for your model
 
 # Step 3: Train Your Model (nanoGPT) 
 
-Refer to nanoGPT for the training process.
+Refer to [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) for the training process.
 
 You can train a different LLM if you want, but I used nanoGPT 
 
