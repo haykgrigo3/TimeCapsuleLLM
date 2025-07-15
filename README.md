@@ -37,6 +37,8 @@ Trained nanoGPT with 187MB of historial text data.
 
 I started downloading texts for the second training run. I'm getting everything from Internet Archive and I've expanded the time period to 1800-1875. To get a diverse range of texts, you can use subject and search filters for publication location, time period and subjects on Internet Archive. 
 
+![Search Filters](searchfilter.jpg)
+
 # Current Model Behavior & Limitations 
 
 Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentences makes no sense but the LLM is recognizing I'm asking about a person. I should have around 1-2GB of data 
