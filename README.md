@@ -87,11 +87,11 @@ For this project I'm trying to create a language model that is unclouded from mo
 I'm using books, legal documents, newspapers, and other writings from 1800–1850 London. The list I linked has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-## How large is the Version 0 model 
+## How large is the Version 0 model ?
 
 This model is very small right now, I'm just doing this for fun and following a strict training rule of no modern sources. It has almost 16 million parameters but I'm gonna start gathering more old texts to begin another model training. Will give updates as I go.
 
-## Training Specs
+## Training Specs ? 
 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
