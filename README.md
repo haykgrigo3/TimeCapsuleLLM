@@ -19,7 +19,7 @@ Hopefully when finished, this model will not know modern concepts and will not b
 
 # Progress Updates
 
-July 9th, 2025
+## July 9th, 2025
 
 I've set my time period for 1800-1850 and region: London 
 
@@ -29,7 +29,7 @@ So far I've gotten 50 as txt files and will begin training NanoGPT soon
 
 Will update this as long as progress is made
 
-July 13th, 2025
+## July 13th, 2025
 
 Trained nanoGPT with 187MB of historial text data. 
 
