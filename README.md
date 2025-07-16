@@ -51,7 +51,7 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.
 
-# Current Model Behavior & Limitations 
+# V0 Model Behavior & Limitations 
 
 Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentences makes no sense but the LLM is recognizing I'm asking about a person. I should have around 1-2GB of data 
 
