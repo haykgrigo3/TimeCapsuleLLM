@@ -37,6 +37,8 @@ Trained nanoGPT with 187MB of historial text data.
 
 I started downloading texts for the second training run. I'm getting everything from Internet Archive and I've expanded the time period to 1800-1875. To get a diverse range of texts, you can use subject and search filters for publication location, time period and subjects on Internet Archive. 
 
+![Search Filters](searchfilter.jpg)
+
 ## July 16th, 2025
 
 I downloaded around 500 txt files from Internet Archive and after cleaning them (just deleting whitespaces, Gutenberg headers, etc) I have around 500MB of data. It's a tiny dataset but last time I trained off of 187MB so there should be at least some kind of noticable difference in the output after I train the second model. I'm hoping this model can at least produce more coherent sentences that kind of make sense. It's not a guarantee of course since this is still a tiny tiny dataset, but it's more than what I used last time. 
@@ -45,7 +47,6 @@ This should be doable on my own hardware, it's good too because I can hopefully 
 
 I will train this dataset today and it should take around 4-5 hours. Once it's done and I test it, I will give updates. Thank you again to everyone whos checking out my project, I've even had some people even giving me links to OCR resources so Thank you! I hope more people try this out and expirement with they're own datasets. 
 
-![Search Filters](searchfilter.jpg)
 
 # Current Model Behavior & Limitations 
 
