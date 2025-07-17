@@ -67,7 +67,7 @@ It still needs alot of work, training off of 187MB will not give you a model tha
 
 Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. 
 
-# v0.5 Model Behavior & Limitations
+# V0.5 Model Behavior & Limitations
 
 This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. 
 
@@ -75,7 +75,7 @@ This is a nice improvement compared to the last model. The writing style and voc
 
 There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. 
 
-I'm learning a lot and will start figuring out what I need to do better in the coming weeks. 
+I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! 
 
 # Upcoming Plans 
 
