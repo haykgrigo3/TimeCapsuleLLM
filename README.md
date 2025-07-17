@@ -53,7 +53,7 @@ I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth ri
 
 # V0 Model Behavior & Limitations 
 
-Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentences makes no sense but the LLM is recognizing I'm asking about a person. I should have around 1-2GB of data 
+Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. 
 
 ![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
