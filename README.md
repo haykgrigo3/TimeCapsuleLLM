@@ -51,6 +51,10 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.
 
+## July 17th, 2025 2:13AM
+
+The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. 
+
 # V0 Model Behavior & Limitations 
 
 Early prompts show the model responding with 1800's language and behavior. For example, I prompted it with "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." and yeah that sentence makes no sense but the LLM is recognizing I'm asking about a person. 
@@ -62,6 +66,14 @@ There is no mention of modern concetps, outputs contain mostly words and phrasin
 It still needs alot of work, training off of 187MB will not give you a model that produces text with complex reasoning. 
 
 Right now it produces sentences that lack full sentence structure and overall just make no sense but this is normal for the training size. 
+
+# v0.5 Model Behavior & Limitations
+
+This is a nice improvement compared to the last model. The writing style and vocab is Victorian and almost every sentence is grammatically correct with proper punctuation. And again this is trained from scratch so it sticks to 1800's subjects. 
+
+There are a lot of factual hallucinations. A lot (like 100%) of the details (dates, events, historical figures)  are made up. Also the sentences don't really have connections to each other, sometimes maybe 2 sentences will relate to each other but beyond that they dont. Another issue is sometimes a stray “Digitized by Google” footer shows up, so the next time I train I really have to make sure the texts are cleaned well. Overall I'm very happy with the results, it's nowhere near an LLM yet but definitely a sentence generator. 
+
+I'm learning a lot and will start figuring out what I need to do better in the coming weeks. 
 
 # Upcoming Plans 
 
