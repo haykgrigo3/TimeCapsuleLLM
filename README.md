@@ -9,21 +9,22 @@
         | <a href="#" title="Coming soon">繁體中文 (coming soon)</a> |
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=id">Bahasa Indonesia</a>
+        | <a href="#" title="Coming soon">हिन्दी (coming soon)</a> |
+        | <a href="#" title="Coming soon">ไทย (coming soon)</a> |
+        | <a href="#" title="Coming soon">Français (coming soon)</a>
+        | <a href="#" title="Coming soon">Deutsch (coming soon)</a>
+        | <a href="#" title="Coming soon">Español (coming soon)</a>
+        | <a href="#" title="Coming soon">Italiano (coming soon)</a>
+        | <a href="#" title="Coming soon">Русский (coming soon)</a>
+        | <a href="#" title="Coming soon">Português (coming soon)</a>
+        | <a href="#" title="Coming soon">Nederlands (coming soon)</a>
+        | <a href="#" title="Coming soon">Polski (coming soon)</a>
+        | <a href="#" title="Coming soon">العربية (coming soon)</a>
+        | <a href="#" title="Coming soon">فارسی (coming soon)</a>
+        | <a href="#" title="Coming soon">Türkçe (coming soon)</a>
+        | <a href="#" title="Coming soon">Tiếng Việt (coming soon)</a>
+        | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
+
       </div>
     </div>
   </details>
