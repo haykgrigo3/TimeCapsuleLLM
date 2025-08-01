@@ -79,11 +79,6 @@ This should be doable on my own hardware, it's good too because I can hopefully 
 
 I will train this dataset today and it should take around 4-5 hours. Once it's done and I test it, I will give updates. Thank you again to everyone whos checking out my project, I've even had some people even giving me links to OCR resources so Thank you! I hope more people try this out and expirement with they're own datasets. 
 
-## July 28th, 2025 
-
-I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. 
-
-Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. 
 
 ### Training Update 
 
@@ -92,6 +87,13 @@ I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth ri
 ## July 17th, 2025 2:13AM
 
 The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. 
+
+## July 28th, 2025 
+
+I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggingface.co/haykgrigorian/TimeCapsuleLLM) if youd like. You can now download my repo and run it locally. Unfortunately nanoGPT doesn't work natively with HuggingFace, so you'll have to download and run the model locally. 
+
+Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. 
+
 
 # V0 Model Behavior & Limitations 
 
