@@ -84,7 +84,7 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 I started training on a 435MB (108 M tokens) corpus, it's going pretty smooth right now. Train loss dropped from 10.9 to 4.9 in the first 2800 iterations. I expect it'll take around 8 or 9 hours to complete. I'll post another update once it's done.
 
-## July 17th, 2025 2:13AM
+## July 17th, 2025
 
 The training is done for the second model, it took my 4060 around 8 hours and 40 minutes (3,900 iters/hr) for 33,000 iters (5 epochs). Final train loss was 3.73. The outputs were suprisingly good it genuinely generates coherent 19th century style sentences now. 
 
@@ -94,6 +94,9 @@ I've gone ahead and uploaded v0.5 to Hugging Face, [Check it out](https://huggin
 
 Also I will begin curating data for my next training run, I believe I'll need maybe 5-10x more data to achieve reasoning capabilities. 
 
+## August 2nd, 2025
+
+I'm going to start work on Version 1 soon. I will need to transition from nanoGPT's architecture to soemthing more modern. I have several open-source LLM archictectures in mind, including: OpenLLaMA v3, Phi-2 and Qwen 1.5B. And to support the jump to V1, I'll need to carefully curate a much bigger and diverse dataset. I'll need at least 5GB of clean training data.
 
 # V0 Model Behavior & Limitations 
 
@@ -174,3 +177,4 @@ This model is very small right now, I'm just doing this for fun and following a 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
+
