@@ -130,7 +130,7 @@ There are a lot of factual hallucinations. A lot (like 100%) of the details (dat
 
 I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! 
 
-#V1
+# V1 Model Behavior & Limitations 
 
 I will upload some example output soon and also do comparisons between the 3 models with the same prompt. I will also upload V1 to huggingface like I did with my last verison, you can find my huggingface account here: https://huggingface.co/haykgrigorian/TimeCapsuleLLM
 
@@ -199,6 +199,7 @@ Ram: 16GB DDR5.
 
 #V1
 GPU: A100 rented
+
 
 
 
