@@ -81,7 +81,7 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 ## August 12, 2025
 
-Version 1 is complete, this version uses Phi 1.5 (700M parameters) and is trained on a dataset that has almost 7000 texts. The main improvements with this model is it's ability to reference real names and historical events or at least kind of. Version 0 and 0.5 could not do this, whenever I prompted those models with something like "In the year 1821" the output would just be hallucinations, stuff that never happened. An example of this with Version 1:
+Version 1 is complete, this version uses Phi 1.5 (700M parameters) and is trained on a dataset that has almost 7000 texts. The main improvements with this model is it's ability to sometimes reference real names and historical events. Version 0 and 0.5 could not do this, whenever I prompted those models with something like "In the year 1821" the output would just be hallucinations, stuff that never happened. An example of this with Version 1:
 
 My prompt: It was the year of our Lord 1834, 
 
@@ -187,6 +187,7 @@ This model is very small right now, I'm just doing this for fun and following a 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
+
 
 
 
