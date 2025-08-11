@@ -130,6 +130,10 @@ There are a lot of factual hallucinations. A lot (like 100%) of the details (dat
 
 I'm learning a lot and will start figuring out what I need to do better in the coming weeks. I will upload files soon! 
 
+#V1
+
+I will upload some example output soon and also do comparisons between the 3 models with the same prompt. I will also upload V1 to huggingface like I did with my last verison, you can find my huggingface account here: https://huggingface.co/haykgrigorian/TimeCapsuleLLM
+
 # Upcoming Plans 
 
 (Completed) I'm going to start work on version 0.5 , instead of training using 50 books, I'll train using ideally 500-600. Right now I'm training nanoGPT using books from 1800-1850 and specifically from London. There is some challeneges like making sure the books I find are not updated or have modern interpretations but untouched books published withtin my chosen time period.
@@ -195,6 +199,7 @@ Ram: 16GB DDR5.
 
 #V1
 GPU: A100 rented
+
 
 
 
