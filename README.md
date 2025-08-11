@@ -87,7 +87,7 @@ My prompt: It was the year of our Lord 1834,
 
 The output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-At first I assumed this might be a coincidence but take a look at this: 
+At first I assumed this might be a coincidence but take a look at this: ![1834protest](1834protest.png)
 
 
 ### Training Update 
@@ -187,5 +187,6 @@ This model is very small right now, I'm just doing this for fun and following a 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
+
 
 
