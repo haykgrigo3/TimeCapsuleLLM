@@ -47,7 +47,7 @@ If you just fine tune a pre-trained model, your LLM is still gonna know modern c
 
 # Expected outcomes 
 
-Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldnt recognize modern concepts/vocab and I hope it doesn't hallucinate modern knowledge.
+Hopefully when finished, this model will not know modern concepts and will not be able to reason beyond what it's been trained on. It shouldnt recognize modern concepts/vocab and should not hallucinate modern knowledge.
 
 # Progress Updates
 
@@ -78,6 +78,16 @@ I downloaded around 500 txt files from Internet Archive and after cleaning them 
 This should be doable on my own hardware, it's good too because I can hopefully see some kind of improvements before I jump to a bigger dataset which would require me to rent a GPU. But don't worry I still plan on renting a GPU soon, but before I do that I wanna make sure my dataset is as curated and clean as possible. One of the issues I have is cleaning, a lot of these txt files have gibberish mixed in. The scripts I've used for cleaning do work but they're not 100% effective. 
 
 I will train this dataset today and it should take around 4-5 hours. Once it's done and I test it, I will give updates. Thank you again to everyone whos checking out my project, I've even had some people even giving me links to OCR resources so Thank you! I hope more people try this out and expirement with they're own datasets. 
+
+## August 12, 2025
+
+Version 1 is complete, this version uses Phi 1.5 (700M parameters) and is trained on a dataset that has almost 7000 texts. The main improvements with this model is it's ability to reference real names and historical events or at least kind of. Version 0 and 0.5 could not do this, whenever I prompted those models with something like "In the year 1821" the output would just be hallucinations, stuff that never happened. An example of this with Version 1:
+
+My prompt: It was the year of our Lord 1834, 
+
+The output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+
+At first I assumed this might be a coincidence but take a look at this: 
 
 
 ### Training Update 
@@ -177,4 +187,5 @@ This model is very small right now, I'm just doing this for fun and following a 
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
+
 
