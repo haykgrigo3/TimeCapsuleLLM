@@ -31,7 +31,7 @@
 </div>
 
 # TimeCapsule LLM
-An LLM trained only on data from certain time periods to reduce modern bias.
+A LLM trained only on data from certain time periods to reduce modern bias.
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
 
@@ -81,13 +81,7 @@ I will train this dataset today and it should take around 4-5 hours. Once it's d
 
 ## August 12, 2025
 
-Version 1 is complete, this version uses Phi 1.5 (700M parameters) and is trained on a dataset that has almost 7000 texts. The main improvements with this model is it's ability to sometimes reference real names and historical events. Version 0 and 0.5 could not do this, whenever I prompted those models with something like "In the year 1821" the output would just be hallucinations, stuff that never happened. An example of this with Version 1:
-
-My prompt: It was the year of our Lord 1834, 
-
-The output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
-
-At first I assumed this might be a coincidence but take a look at this: ![1834protest](1834protest.png)
+Version 1 is complete, this version uses Phi 1.5 (700M parameters) and is trained on a dataset that has almost 7000 texts. The main improvements with this model is it's ability to sometimes reference real names and historical events. Version 0 and 0.5 could not do this, whenever I prompted those models with something like "In the year 1821" the output would just be hallucinations, stuff that never happened. 
 
 
 ### Training Update 
@@ -133,6 +127,18 @@ I'm learning a lot and will start figuring out what I need to do better in the c
 # V1 Model Behavior & Limitations 
 
 I will upload some example output soon and also do comparisons between the 3 models with the same prompt. I will also upload V1 to huggingface like I did with my last verison, you can find my huggingface account here: https://huggingface.co/haykgrigorian/TimeCapsuleLLM
+
+A sample output below
+
+My prompt: "It was the year of our Lord 1834" 
+
+The output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+
+At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](1834protest.png)
+
+## Why this matters:
+
+This is the first example of one of my models connecting a year to both a real historical event and a real person tied to that event (Lord Palmerston). Earlier models (v0 and v0.5) could mimic writing styles of the 19th century but would always hallucinate events, people and facts. This shows the model is beggining to remember things from the dataset 
 
 # Upcoming Plans 
 
@@ -199,6 +205,7 @@ Ram: 16GB DDR5.
 
 #V1
 GPU: A100 rented
+
 
 
 
