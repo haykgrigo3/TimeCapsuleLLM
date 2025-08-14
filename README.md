@@ -38,7 +38,7 @@ Imagine if an AI model didnt just pretend to be historical but actually was.
 
 v0 and v0.5 built on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) Core training scripts and model architecture are his work. 
 
-v1 built on Phi 1.5 
+v1 built on [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
 
 ##  Model Behavior & Limitations
@@ -141,6 +141,7 @@ Ram: 16GB DDR5.
 
 # V1
 GPU: A100 rented
+
 
 
 
