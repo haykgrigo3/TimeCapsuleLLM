@@ -119,6 +119,11 @@ For this project I'm trying to create a language model that is unclouded from mo
 I'm using books, legal documents, newspapers, and other writings from 1800–1875 London. The list I linked (for v0) has like 200 but for the first training I just used 50 files about ~187 MB. You can view a list of the documents:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
+Dataset sizes:
+v0: ~187MB
+v0.5: ~435MB 
+v1: ~6.25GB 
+
 ## How large are the models ?
 
 V0: 16M Parameters
@@ -136,6 +141,7 @@ Ram: 16GB DDR5.
 
 # V1
 GPU: A100 rented
+
 
 
 
