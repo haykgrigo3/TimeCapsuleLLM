@@ -31,7 +31,8 @@
 </div>
 
 # TimeCapsule LLM
-A LLM trained only on data from certain time periods to reduce modern bias.
+
+*A language model trained **from scratch** exclusively on data from certain places and time periods to reduce modern bias and emulate the voice, vocabulary, and worldview of the era.*
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
 
@@ -205,6 +206,7 @@ Ram: 16GB DDR5.
 
 #V1
 GPU: A100 rented
+
 
 
 
