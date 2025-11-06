@@ -128,21 +128,26 @@ v1: ~6.25GB
 
 ## How large are the models ?
 
-V0: 16M Parameters
+v0: 16M Parameters
 
-V0.5 123M Parameters
+v0.5 123M Parameters
 
-V1: 700M Parameters
+v1: 700M Parameters
+
+v2:
 
 # Training Specs ? 
 
-# V0/V0.5
+# v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
-# V1
+# v1
 GPU: A100 rented
+
+# v2
+
 
 
 
