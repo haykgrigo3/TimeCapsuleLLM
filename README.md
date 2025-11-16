@@ -11,7 +11,7 @@
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
         | <a href="#" title="Coming soon">हिन्दी (coming soon)</a> |
         | <a href="#" title="Coming soon">ไทย (coming soon)</a> |
-        | <a href="#" title="Coming soon">Français (coming soon)</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr" title="Coming soon">Français</a>
         | <a href="#" title="Coming soon">Deutsch (coming soon)</a>
         | <a href="#" title="Coming soon">Español (coming soon)</a>
         | <a href="#" title="Coming soon">Italiano (coming soon)</a>
@@ -147,6 +147,7 @@ Ram: 16GB DDR5.
 GPU: A100 rented
 
 # v2
+
 
 
 
