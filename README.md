@@ -85,6 +85,20 @@ This is the first example of one of my models connecting a year to both a real h
 - I plan on expanding the corpus and cleaning it more for better reasoning abilities
 - Expanding to different regions and time periods for more historical models
 
+### **v2mini-eval1**
+
+There was an issue with tokenization that causes output to look like this:
+
+PROMPT:
+Who is Charles Dickens?
+
+
+W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
+
+Corrected:
+
+"Who is Charles Dickens? Does that work more of his excellent stirring, in his plays, in the Great Company's farm? What I have yet to quote from Jack Pickett? Do you not know that they were a species of galloping, or sawing of their breasts, or what was to be done about the time when Jackson was looking on the window? What is the success of an Englishman, and which his son has not been discovering to me, whereby to accomplish such a weight? Did you ever make a passage into the old roadway, or to an anchor-breeze at the foot of our boat, which you must leave us? The fact is, that whether the wind would rise up from the plain on Saturday night or noontide, or till the north, or otherwise, we shall be compelled to describe a formidable barrier, with the same effects as the present. In this situation, at least, it is not too much to say that we have left that room. I believe there are three copies in the 'Five Hundred-fold,' to be referred to, as the first number of our readers who wish t[o]...”
+
 
 ## How to Use
 
@@ -150,6 +164,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
