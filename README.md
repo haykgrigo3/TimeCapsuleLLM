@@ -122,9 +122,10 @@ I'm using books, legal documents, newspapers, and other writings from 1800–187
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Dataset sizes:
-v0: ~187MB
-v0.5: ~435MB 
-v1: ~6.25GB 
+- v0: ~187MB
+- v0.5: ~435MB 
+- v1: ~6.25GB 
+- v2mini-eval1: 15GB
 
 ## How large are the models ?
 
@@ -134,7 +135,7 @@ v0.5 123M Parameters
 
 v1: 700M Parameters
 
-v2:
+v2mini-eval1: 300M Parameters
 
 # Training Specs ? 
 
@@ -144,9 +145,12 @@ CPU: i5-13400F
 Ram: 16GB DDR5.
 
 # v1
-GPU: A100 rented
+GPU: A100 SXM rented
 
-# v2
+# v2mini-eval1
+
+GPU: A100 SXM rented
+
 
 
 
