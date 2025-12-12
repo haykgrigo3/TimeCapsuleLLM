@@ -1,0 +1,58 @@
+{
+  "dataset": "TimeCapsuleLLM v2 (02_cleaned)",
+  "date": "2025-12-11",
+  "scale": {
+    "total_words": 16059607643,
+    "unique_words": 112086437,
+    "lexical_diversity": 0.00698
+  },
+  "gender_bias": {
+    "pronouns": {
+      "he": 92559603,
+      "him": 30729836,
+      "his": 94715474,
+      "she": 16242822,
+      "her": 27287570,
+      "hers": 139386
+    },
+    "male_female_ratio": 4.992
+  },
+  "temporal_bias": {
+    "top_years": {
+      "1851": 356147,
+      "1861": 354463,
+      "1857": 342963,
+      "1841": 341867,
+      "1840": 338037,
+      "1854": 336761,
+      "1848": 333532,
+      "1858": 333462,
+      "1862": 332504,
+      "1850": 326441,
+      "1870": 324532,
+      "1859": 318681,
+      "1855": 317412,
+      "1830": 314738,
+      "1864": 313133
+    }
+  },
+  "geographic_bias": {
+    "top_locations": {
+      "london": 148223,
+      "england": 142626,
+      "france": 114611,
+      "india": 110859,
+      "america": 99459,
+      "britain": 87147,
+      "ireland": 84576,
+      "italy": 82453,
+      "scotland": 81248,
+      "egypt": 80333,
+      "spain": 78284,
+      "china": 76090,
+      "germany": 75457,
+      "africa": 74433,
+      "united states": 49149
+    }
+  }
+}
