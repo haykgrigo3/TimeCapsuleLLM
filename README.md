@@ -77,6 +77,9 @@ At first I assumed that a protest might have coincidentally taken place the same
 
 ### **v2mini-eval1**
 
+Trained using a 15GB sample from v2's 90GB dataset.
+Model trained to 10K steps only.
+
 There was an issue with tokenization that causes output to look like this:
 
 PROMPT:
@@ -170,6 +173,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
