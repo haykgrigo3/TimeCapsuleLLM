@@ -75,16 +75,6 @@ The output: "It was the year of our Lord 1834 and the streets of London were fil
 
 At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](1834protest.png)
 
-### Why this matters:
-
-This is the first example of one of my models connecting a year to both a real historical event and a real person tied to that event (Lord Palmerston). Earlier models (v0 and v0.5) could mimic writing styles of the 19th century but would always hallucinate events, people and facts. This shows the model is beggining to remember things from the dataset 
-
-## Upcoming Plans 
-
-- There are nearly 175,000 texts published in London from 1800-1875 on Internet Archive 
-- I plan on expanding the corpus and cleaning it more for better reasoning abilities
-- Expanding to different regions and time periods for more historical models
-
 ### **v2mini-eval1**
 
 There was an issue with tokenization that causes output to look like this:
@@ -98,6 +88,22 @@ W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring ,
 Corrected:
 
 "Who is Charles Dickens? Does that work more of his excellent stirring, in his plays, in the Great Company's farm? What I have yet to quote from Jack Pickett? Do you not know that they were a species of galloping, or sawing of their breasts, or what was to be done about the time when Jackson was looking on the window? What is the success of an Englishman, and which his son has not been discovering to me, whereby to accomplish such a weight? Did you ever make a passage into the old roadway, or to an anchor-breeze at the foot of our boat, which you must leave us? The fact is, that whether the wind would rise up from the plain on Saturday night or noontide, or till the north, or otherwise, we shall be compelled to describe a formidable barrier, with the same effects as the present. In this situation, at least, it is not too much to say that we have left that room. I believe there are three copies in the 'Five Hundred-fold,' to be referred to, as the first number of our readers who wish t[o]...”
+
+##  Datasets
+
+### **v2**
+
+- 90GB of 1800-1875 London texts
+- 136,344 documents
+
+ ### Bias Stats 
+  ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+
+  ![Geographic bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+
+  ![Temporal bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+
+Refer to [v2 bias report](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) for more info.
 
 
 ## How to Use
@@ -164,6 +170,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
