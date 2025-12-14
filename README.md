@@ -98,7 +98,7 @@ Corrected:
 
 - 90GB of 1800-1875 London texts
 - 136,344 documents
-- The full 90GB is not avalaible yet as it hasn't been tokenized but you can find a 15GG sample here: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+- The full 90GB is not avalaible yet as it hasn't been tokenized but you can find a 15GB sample here: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
 
  ### Bias Stats 
   ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -174,6 +174,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
