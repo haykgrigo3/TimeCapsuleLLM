@@ -92,6 +92,16 @@ Corrected:
 
 "Who is Charles Dickens? Does that work more of his excellent stirring, in his plays, in the Great Company's farm? What I have yet to quote from Jack Pickett? Do you not know that they were a species of galloping, or sawing of their breasts, or what was to be done about the time when Jackson was looking on the window? What is the success of an Englishman, and which his son has not been discovering to me, whereby to accomplish such a weight? Did you ever make a passage into the old roadway, or to an anchor-breeze at the foot of our boat, which you must leave us? The fact is, that whether the wind would rise up from the plain on Saturday night or noontide, or till the north, or otherwise, we shall be compelled to describe a formidable barrier, with the same effects as the present. In this situation, at least, it is not too much to say that we have left that room. I believe there are three copies in the 'Five Hundred-fold,' to be referred to, as the first number of our readers who wish t[o]...”
 
+### **v2mini-eval2**
+
+Trained using the same 15GB sample used for training eval1.
+Model is again trained to 10K steps only.
+
+PROMPT:Charles Darwin
+
+Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I was in London a fortnight, and was much affected with an attack of rheumatism. The first attack of rheumatism was a week before I saw you, and the second when I saw you, and the third when I saw you, and the third in the same time. The second attack of gout, however, was not accompanied by any febrile symptoms, but was accompanied with an increased flow of urine, and with a more copious discharge of urine. The third attack was an hour after I saw you, and was succeeded by a return of a paroxysm of gout, and a more rapid return of the gout. The fourth attack was also accompanied by a fever, but was not always accompanied by any febrile symptoms. The third attack of gout was a fortnight after you had been ill, and the fourth was followed by a paroxysm of gout. The fourth attack was a fortnight after you were attacked, and was accompanied by a sense
+
+
 ##  Datasets
 
 ### **v2**
@@ -174,6 +184,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
