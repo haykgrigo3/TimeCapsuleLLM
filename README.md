@@ -40,6 +40,8 @@ v0 and v0.5 built on [nanoGPT by Andrej Karpathy](https://github.com/karpathy/na
 
 v1 built on [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 built on llamaforcausallm
+
 [Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 
@@ -184,6 +186,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
