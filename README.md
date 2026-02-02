@@ -39,7 +39,6 @@ If you use this dataset or model in academic work, please cite:
   howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
 }
 
-[Cite](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/CITATION.cff)
 
 
 ##  Model Behavior & Limitations
@@ -198,6 +197,7 @@ GPU: A100 SXM rented
 
 # v2
 GPU: H100 SXM rented
+
 
 
 
