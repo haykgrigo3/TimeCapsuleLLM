@@ -40,7 +40,6 @@ If you use this dataset or model in academic work, please cite:
 }
 
 
-
 ##  Model Behavior & Limitations
 
 ### **v0**  
@@ -197,6 +196,7 @@ GPU: A100 SXM rented
 
 # v2
 GPU: H100 SXM rented
+
 
 
 
