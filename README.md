@@ -182,21 +182,26 @@ v2mini-eval2: 200M Parameters
 
 v2: 1.2B Parameters
 
-# Training Specs ? 
+## Training Specs ? 
 
-# v0/v0.5
+### v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
-# v1
+### v1
 GPU: A100 SXM rented
 
-# v2mini-eval1/eval2
+### v2mini-eval1/eval2
 GPU: A100 SXM rented
 
-# v2
+### v2
 GPU: H100 SXM rented
+
+## Acknowledgements
+
+I would like to thank [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) for academic supervision, guidance on research framing and evaluation, and for assistance with tokenizer training and dataset preparation for the v2 release. His feedback and experience were instrumental in refining the presentation of this work.
+
 
 
 
