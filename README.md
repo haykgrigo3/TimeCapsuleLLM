@@ -24,6 +24,7 @@ v2 built on llamaforcausallm
 
 ## Research Status
 This project was initiated and developed independently.
+
 It is currently conducted under academic supervision, with an affiliated research collaboration at Muhlenberg College.
 
 ## Citation
@@ -38,7 +39,7 @@ If you use this dataset or model in academic work, please cite:
   publisher = {Hugging Face},
   howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
 }
-
+```
 
 ##  Model Behavior & Limitations
 
@@ -196,6 +197,7 @@ GPU: A100 SXM rented
 
 # v2
 GPU: H100 SXM rented
+
 
 
 
