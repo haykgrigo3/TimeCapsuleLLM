@@ -169,7 +169,8 @@ Dataset sizes:
 - v0: ~187MB
 - v0.5: ~435MB 
 - v1: ~6.25GB 
-- v2mini-eval1: 15GB
+- v2mini-eval1: 15GB(sample from v2's 90GB)
+- v2: 90GB
 
 ## How large are the models ?
 
@@ -181,6 +182,10 @@ v1: 700M Parameters
 
 v2mini-eval1: 300M Parameters
 
+v2mini-eval2: 200M Parameters
+
+v2: 1.2B Parameters
+
 # Training Specs ? 
 
 # v0/v0.5
@@ -191,9 +196,12 @@ Ram: 16GB DDR5.
 # v1
 GPU: A100 SXM rented
 
-# v2mini-eval1
-
+# v2mini-eval1/eval2
 GPU: A100 SXM rented
+
+# v2
+GPU: H100 SXM rented
+
 
 
 
