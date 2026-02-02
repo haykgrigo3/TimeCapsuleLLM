@@ -103,6 +103,14 @@ PROMPT:Charles Darwin
 
 Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I was in London a fortnight, and was much affected with an attack of rheumatism. The first attack of rheumatism was a week before I saw you, and the second when I saw you, and the third when I saw you, and the third in the same time. The second attack of gout, however, was not accompanied by any febrile symptoms, but was accompanied with an increased flow of urine, and with a more copious discharge of urine. The third attack was an hour after I saw you, and was succeeded by a return of a paroxysm of gout, and a more rapid return of the gout. The fourth attack was also accompanied by a fever, but was not always accompanied by any febrile symptoms. The third attack of gout was a fortnight after you had been ill, and the fourth was followed by a paroxysm of gout. The fourth attack was a fortnight after you were attacked, and was accompanied by a sense
 
+### **v2**
+
+Trained using a 90GB (112GB tokenized) dataset
+Trained to 182K steps 
+
+![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+
 
 ##  Datasets
 
@@ -186,6 +194,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
