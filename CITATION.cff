@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Historic London English (1800–1875)"
+message: "If you use this dataset or model in your research, please cite it as follows."
+type: dataset
+authors:
+  - family-names: Grigorian
+    given-names: Hayk
+  - family-names: Yaghoobian
+    given-names: Hamed
+year: 2025
+repository-code: https://github.com/haykgrigo3/TimeCapsuleLLM
+url: https://huggingface.co/datasets/postgrammar/london-llm-1800
+publisher: Hugging Face
