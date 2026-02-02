@@ -52,7 +52,7 @@ v2 built on llamaforcausallm
 Early prompts show the model responding with 1800's language and behavior. 
 Example: Prompt: "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." 
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - No mention of modern concepts  
 - Mostly era-accurate vocabulary  
@@ -65,7 +65,7 @@ A significant improvement over v0.
 - Still high factual hallucination rate  
 - OCR noise (“Digitized by Google”) still present in outputs
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
@@ -108,9 +108,9 @@ Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I
 Trained using a 90GB (112GB tokenized) dataset
 Trained to 182K steps 
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
-
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
 ##  Datasets
 
@@ -194,6 +194,7 @@ GPU: A100 SXM rented
 # v2mini-eval1
 
 GPU: A100 SXM rented
+
 
 
 
