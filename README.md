@@ -96,7 +96,7 @@ Trained to 182K steps
 
 - 90GB(raw) of 1800-1875 London texts
 - 136,344 documents
-- The full tokenized dataset is now avalaible here: https://huggingface.co/datasets/postgrammar/london-llm-1800
+- The full tokenized dataset is now available here: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
  ### Bias Stats 
   ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -179,6 +179,7 @@ GPU: A100 SXM rented
 
 # v2
 GPU: H100 SXM rented
+
 
 
 
