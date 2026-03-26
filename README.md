@@ -1,4 +1,4 @@
-<div align="right">
+e<div align="right">
   <details>
 <summary>🌐 Language</summary>
 
@@ -54,7 +54,7 @@ Example: Prompt: "Who art Henry?" and it replied "I know that man, I have did no
 - Mostly era-accurate vocabulary  
 - Sentences are mostly incoherent (expected for ~187MB training data)
 
-### **v0.5** 
+### **v0.5-london** 
 
 A significant improvement over v0.  
 - Victorian writing style, proper punctuation, mostly grammatical sentences  
@@ -63,7 +63,7 @@ A significant improvement over v0.
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-### **v1**
+### **v1-london**
 
 First model to recall and connect a real historical event with an actual figure from the dataset.
 
@@ -73,7 +73,7 @@ The output: "It was the year of our Lord 1834 and the streets of London were fil
 
 At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](1834protest.png)
 
-### **v2mini-eval1**
+### **v2mini-eval1-london**
 
 Trained using a 15GB sample from v2's 90GB dataset.
 Model trained to 10K steps only.
@@ -90,7 +90,7 @@ Corrected:
 
 "Who is Charles Dickens? Does that work more of his excellent stirring, in his plays, in the Great Company's farm? What I have yet to quote from Jack Pickett? Do you not know that they were a species of galloping, or sawing of their breasts, or what was to be done about the time when Jackson was looking on the window? What is the success of an Englishman, and which his son has not been discovering to me, whereby to accomplish such a weight? Did you ever make a passage into the old roadway, or to an anchor-breeze at the foot of our boat, which you must leave us? The fact is, that whether the wind would rise up from the plain on Saturday night or noontide, or till the north, or otherwise, we shall be compelled to describe a formidable barrier, with the same effects as the present. In this situation, at least, it is not too much to say that we have left that room. I believe there are three copies in the 'Five Hundred-fold,' to be referred to, as the first number of our readers who wish t[o]...”
 
-### **v2mini-eval2**
+### **v2mini-eval2-london**
 
 Trained using the same 15GB sample used for training eval1.
 Model is again trained to 10K steps only.
@@ -99,7 +99,7 @@ PROMPT:Charles Darwin
 
 Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I was in London a fortnight, and was much affected with an attack of rheumatism. The first attack of rheumatism was a week before I saw you, and the second when I saw you, and the third when I saw you, and the third in the same time. The second attack of gout, however, was not accompanied by any febrile symptoms, but was accompanied with an increased flow of urine, and with a more copious discharge of urine. The third attack was an hour after I saw you, and was succeeded by a return of a paroxysm of gout, and a more rapid return of the gout. The fourth attack was also accompanied by a fever, but was not always accompanied by any febrile symptoms. The third attack of gout was a fortnight after you had been ill, and the fourth was followed by a paroxysm of gout. The fourth attack was a fortnight after you were attacked, and was accompanied by a sense
 
-### **v2**
+### **v2-london**
 
 Trained using a 90GB (112GB tokenized) dataset
 Trained to 182K steps 
@@ -107,6 +107,15 @@ Trained to 182K steps
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
 
 ![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+
+### **Whats next?**
+
+- Development has begun on TimeCapsuleLLM v3
+- Scaling dataset size and geographic coverage
+- Expanding beyond London to additional cities
+
+The work is being carried out in collaboration with researchers from University College London (UCL) and additional institutional involvement is under discussion. 
+
 
 ##  Datasets
 
@@ -126,13 +135,16 @@ Trained to 182K steps
 Refer to [v2 bias report](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) for more info.
 
 
+- 
+
+
 ## How to Use
 
 This project focuses mostly on curating historical data, preparing it for training and building a tokenizer. I am not going to cover the full LLM training process, for that refer to nanoGPT by Andrej Karpathy.
 
 ### Step 1: Gather and Prepare Historical Texts 
 
-- Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1850) 
+- Collect .txt files of public domain books, documents, etc from your chosen time period (e.g., London 1800-1875) 
 - Keep them within your chosen time/place window  
 - Clean the text files using a script or manually remove headers/footer from Project Gutenberg, Modern annotations or things like OCR errors.
 
