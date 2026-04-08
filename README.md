@@ -210,6 +210,17 @@ GPU: A100 SXM rented
 ### v2
 GPU: H100 SXM rented
 
+## Related Work
+
+- **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
+  — 1.4B parameter LLM trained on 1800-1899 texts with Q&A. There is also a [160M](https://huggingface.co/zakarth/violet-160m-chat) version. 
+
+- **[Ranke-4B](https://github.com/DGoettlich/history-llms/blob/main/ranke-4b/prerelease_notes.md)** 
+  - a family of 4B parameter LLMs based on the Qwen3 architecture trained from scratch on 80B tokens of historical data up to knowledge-cutoffs 1913,1929,1933,1939,1946
+
+- **[MondadGPT](https://huggingface.co/Pclanglais/MonadGPT)** 
+  - MonadGPT is a finetune of Mistral-Hermes 2 on 11,000 early modern texts in English, French and Latin, mostly coming from EEBO and Gallica.
+
 ## Acknowledgements
 
 I would like to thank [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) for academic supervision, guidance on research framing and evaluation, and for assistance with tokenizer training and dataset preparation for the v2 release. His feedback and experience were instrumental in refining the presentation of this work.
