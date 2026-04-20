@@ -41,6 +41,14 @@ If you use this dataset or model in academic work, please cite:
 }
 ```
 
+## Join the Vintage LLM Discord
+
+If you're interested in **historical language models**, **time-specific datasets**, or the future of projects like **TimeCapsuleLLM**, **Violet-1.4B**, **Mr. Chatterbox** come join the community.
+
+We use the server to discuss ideas, share progress, and connect with others building in this space.
+
+[Join the Discord](https://discord.gg/JeWkk4z5)
+
 ##  Model Behavior & Limitations
 
 ### **v0**  
