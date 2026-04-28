@@ -221,7 +221,7 @@ GPU: H100 SXM rented
 ## Related Work
 
 - **[talkie-1930-13b](https://talkie-lm.com/introducing-talkie)**
-  -  13B parameter LLM trained on 260B tokens of texts prior to 1930 with Q&A. There is also a [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) version.
+  -  13B parameter LLM trained on 260B tokens of text prior to 1930 with Q&A. There is also a [base](https://huggingface.co/talkie-lm/talkie-1930-13b-base) version.
  
 - **[Violet 1.4B](https://huggingface.co/zakarth/violet-1b4-chat)**
   -  1.4B parameter LLM trained on 1800-1899 texts with Q&A. There is also a [160M](https://huggingface.co/zakarth/violet-160m-chat) version.
