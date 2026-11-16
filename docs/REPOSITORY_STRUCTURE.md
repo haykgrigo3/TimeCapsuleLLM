@@ -13,10 +13,12 @@ This repository keeps reusable project material at the top level and groups rele
 ├── experiments/
 │   ├── london-1800-1850/
 │   │   └── v0/                # v0 training and tokenizer material
-│   └── london-1800-1875/
+│   ├── london-1800-1875/
 │       ├── v0.5/              # v0.5 scripts, tokenizer, and examples
 │       ├── v2/                # v2 launch script and examples
 │       └── v2mini-eval1/      # Evaluation scripts, bias data, and charts
+│   └── world-english-1800-1875/
+│       └── v3/                # Reserved home for the next v3 training run
 ├── scripts/                   # Reusable data-acquisition and dataset utilities
 ├── README.md                  # Human-oriented project overview
 ├── llms.txt                   # Concise AI/automated-reader project guide
