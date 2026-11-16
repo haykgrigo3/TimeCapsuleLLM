@@ -8,9 +8,15 @@
 </div>
 
 
+<p align="center">
+  <img src="timecapsulellm-wordmark-transparent.png" alt="TimeCapsuleLLM" width="900">
+</p>
+
 # TimeCapsule LLM
 
 *A language model trained **from scratch** exclusively on data from certain places and time periods to reduce modern bias and emulate the voice, vocabulary, and worldview of the era.*
+
+> **Quick context:** TimeCapsuleLLM is a historical-language-model research project. Its models are trained from scratch on deliberately bounded historical corpora rather than fine-tuned from modern foundation models. For a concise, structured guide intended for AI assistants and other automated readers, see [llms.txt](llms.txt).
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
 

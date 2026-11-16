@@ -1,0 +1,66 @@
+# TimeCapsuleLLM
+
+> A research project for training language models from scratch on carefully bounded historical corpora. The primary current focus is English-language material associated with London, published from 1800 to 1875.
+
+## Project summary
+
+- Name: TimeCapsuleLLM / TimeCapsule LLM
+- License: MIT (see `LICENSE`)
+- Core idea: Selective Temporal Training (STT). Training data is restricted to a specified historical place and time window so the model is not pre-trained on modern text and then made to imitate the past.
+- Intended use: Research into historical language modeling, corpus curation, and period-bounded generative models.
+- Not intended use: Reliable factual question answering, historical authority, or production-grade text generation. Outputs can hallucinate, reproduce OCR artifacts, and be incoherent.
+- Model collection: https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london
+
+## Why train from scratch?
+
+Fine-tuning or LoRA adapts a model that already contains modern-language knowledge. TimeCapsuleLLM instead starts from random initialization and trains only on the selected corpus. The objective is not to make a modern model perform a historical style; it is to study a model whose learned language and knowledge come from the bounded corpus.
+
+## Current corpus and models
+
+The documented corpus focus is London, 1800-1875. It contains public-domain books, legal documents, newspapers, and other writings. Corpus coverage, data quality, and exact composition vary by release.
+
+| Release | Parameters | Corpus / training note |
+| --- | ---: | --- |
+| v0 | 16M | About 187 MB; early nanoGPT-based experiment. |
+| v0.5-london | 123M | About 435 MB; improved grammar, but still hallucinates and may reproduce OCR noise. |
+| v1-london | 700M | About 6.25 GB. |
+| v2mini-eval1-london | 300M | 15 GB sample of the v2 corpus; trained for 10K steps; known tokenization issue. |
+| v2mini-eval2-london | 200M | Same 15 GB sample; trained for 10K steps. |
+| v2-london | 1.2B | 90 GB raw corpus / 112 GB tokenized; 136,344 documents; trained for 182K steps. |
+
+## Repository map
+
+- `london_1800_1850_v0/`: v0 data-preparation, tokenizer-training, training, and sampling scripts.
+- `london_1800_1875_v0.5/`: v0.5 scripts, custom tokenizer artifacts, and example outputs.
+- `london_1800_1875_v2/`: v2 sample outputs and launch script.
+- `london_1800_1875_v2mini_eval1/`: v2 evaluation scripts, bias report, and charts.
+- `download_texts_improved.py`: historical-text acquisition helper.
+- `london_corpus_dataset.py`: dataset-related code.
+- `Copy of London Documents for Time Capsule LLM.txt`: source document list for an early corpus.
+- `CITATION.cff`: citation metadata.
+- `CONTRIBUTING.md`: contribution guidance.
+
+## Reproducing the approach
+
+1. Choose a defensible historical time and geographic window.
+2. Collect public-domain plain-text sources that fall inside that window.
+3. Clean boilerplate, modern annotations, and OCR errors where possible.
+4. Train a tokenizer on the cleaned corpus (examples: `train_tokenizer.py` and `train_tokenizer_hf.py` under `london_1800_1850_v0/`).
+5. Train a causal language model from scratch using the tokenizer and corpus. This repository does not aim to be a general end-to-end training framework; consult the relevant model implementation or nanoGPT for architecture and training details.
+6. Evaluate outputs for fluency, period leakage, factual hallucination, OCR contamination, geographic bias, and temporal bias.
+
+## Important limitations
+
+- A corpus cutoff reduces exposure to later material; it does not make outputs historically correct or neutral.
+- Historical sources can contain social biases, unequal representation, and errors from their era.
+- OCR artifacts can become learned output patterns.
+- Small or partially trained checkpoints may be grammatically weak or incoherent.
+- Do not treat generated text as evidence about historical events or people without independently verifying it against sources.
+
+## Citation and research context
+
+Use the citation in `CITATION.cff` or the README when referring to the dataset or models. The project was initiated independently and is conducted under academic supervision, with affiliated research collaboration at Muhlenberg College and Georgia State University.
+
+## Human-readable documentation
+
+Read `README.md` for examples, model-behavior notes, detailed FAQ answers, related work, and acknowledgements.
