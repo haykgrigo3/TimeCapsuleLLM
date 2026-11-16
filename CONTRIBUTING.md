@@ -18,7 +18,7 @@ Thank you for your interest in contributing! Here are some guidelines to help yo
 - Use clear, descriptive commit messages
 - Start with a verb (Add, Fix, Update, etc.)
 - Include issue numbers when relevant
-- Example: "Add type hints to download_texts_improved.py (#16)"
+- Example: "Add type hints to scripts/download_texts.py (#16)"
 
 ## Pull Requests
 - Create a new branch for each PR

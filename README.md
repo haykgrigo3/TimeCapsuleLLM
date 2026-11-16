@@ -9,12 +9,12 @@
 
 
 <p align="center">
-  <img src="timecapsulellm-wordmark-transparent.png" alt="TimeCapsuleLLM" width="900">
+  <img src="assets/brand/timecapsulellm-wordmark-transparent.png" alt="TimeCapsuleLLM" width="900">
 </p>
 
 *A language model trained **from scratch** exclusively on data from certain places and time periods to reduce modern bias and emulate the voice, vocabulary, and worldview of the era.*
 
-> **Quick context:** TimeCapsuleLLM is a historical-language-model research project. Its models are trained from scratch on deliberately bounded historical corpora rather than fine-tuned from modern foundation models. For a concise, structured guide intended for AI assistants and other automated readers, see [llms.txt](llms.txt).
+> **Quick context:** TimeCapsuleLLM is a historical-language-model research project. Its models are trained from scratch on deliberately bounded historical corpora rather than fine-tuned from modern foundation models. For a concise, structured guide intended for AI assistants and other automated readers, see [llms.txt](llms.txt). See [the repository structure](docs/REPOSITORY_STRUCTURE.md) for where code, data manifests, experiments, and assets live.
 
 Imagine if an AI model didnt just pretend to be historical but actually was.
 
@@ -63,7 +63,7 @@ We use the server to discuss ideas, share progress, and connect with others buil
 Early prompts show the model responding with 1800's language and behavior. 
 Example: Prompt: "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." 
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1850/v0/timelockllm_sample_output.png?raw=true)
 
 - No mention of modern concepts  
 - Mostly era-accurate vocabulary  
@@ -76,7 +76,7 @@ A significant improvement over v0.
 - Still high factual hallucination rate  
 - OCR noise (“Digitized by Google”) still present in outputs
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v0.5/fellowcitizens.png?raw=true)
 
 ### **v1-london**
 
@@ -86,7 +86,7 @@ Example: Prompt: "It was the year of our Lord 1834"
 
 The output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](1834protest.png)
+At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](assets/images/1834protest.png)
 
 ### **v2mini-eval1-london**
 
@@ -119,9 +119,9 @@ Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I
 Trained using a 90GB (112GB tokenized) dataset
 Trained to 182K steps 
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2/v2output1.png)
 
-![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2/v2output2.png)
 
 ### **Whats next?**
 
@@ -141,13 +141,13 @@ The work is being carried out in collaboration with researchers from Muhlenberg 
 - The full tokenized dataset is now available here: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
  ### Bias Stats 
-  ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+  ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2mini-eval1/pronoun_bias.png)
 
-  ![Geographic bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+  ![Geographic bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2mini-eval1/geographic_bias.png)
 
-  ![Temporal bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+  ![Temporal bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2mini-eval1/temporal_bias.png)
 
-Refer to [v2 bias report](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) for more info.
+Refer to [v2 bias report](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/experiments/london-1800-1875/v2mini-eval1/v2_bias_report.json) for more info.
 
 
 - 

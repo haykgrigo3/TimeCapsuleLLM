@@ -1,4 +1,4 @@
-"""download_texts_improved_clean.py
+"""Download public-domain text files from Internet Archive item IDs.
 
 
 # Made for London v0
@@ -10,10 +10,10 @@
 Usage:
     # set env var (recommended)
     export ARCHIVE_API_KEY="your_api_key_here"
-    python download_texts_improved_clean.py --ids ids.txt --outdir ./texts --concurrency 8
+    python scripts/download_texts.py --ids data/manifests/internet_archive_ids.txt --outdir ./data/raw/texts --concurrency 8
 
     # or pass API key directly (less secure)
-    python download_texts_improved_clean.py --ids ids.txt --outdir ./texts --api-key YOUR_KEY
+    python scripts/download_texts.py --ids data/manifests/internet_archive_ids.txt --outdir ./data/raw/texts --api-key YOUR_KEY
 """
 
 from __future__ import annotations
@@ -210,7 +210,8 @@ def main(argv=None):
         with open(report_path, "w", encoding="utf-8") as f:
             f.write("item_id,success,message\n")
             for item_id, ok, msg in results:
-                f.write(f"\"{item_id}\",{int(ok)},\"{msg.replace('\"','\"\"')}\"\n")
+                escaped_msg = msg.replace('"', '""')
+                f.write(f'"{item_id}",{int(ok)},"{escaped_msg}"\n')
         logger.info(f"Wrote report: {report_path}")
    
     except Exception as e:

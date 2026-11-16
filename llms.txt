@@ -30,13 +30,15 @@ The documented corpus focus is London, 1800-1875. It contains public-domain book
 
 ## Repository map
 
-- `london_1800_1850_v0/`: v0 data-preparation, tokenizer-training, training, and sampling scripts.
-- `london_1800_1875_v0.5/`: v0.5 scripts, custom tokenizer artifacts, and example outputs.
-- `london_1800_1875_v2/`: v2 sample outputs and launch script.
-- `london_1800_1875_v2mini_eval1/`: v2 evaluation scripts, bias report, and charts.
-- `download_texts_improved.py`: historical-text acquisition helper.
-- `london_corpus_dataset.py`: dataset-related code.
-- `Copy of London Documents for Time Capsule LLM.txt`: source document list for an early corpus.
+- `experiments/`: versioned experiment material, grouped first by corpus and then model version.
+- `experiments/london-1800-1850/v0/`: v0 data-preparation, tokenizer-training, training, and sampling scripts.
+- `experiments/london-1800-1875/v0.5/`: v0.5 scripts, custom tokenizer artifacts, and example outputs.
+- `experiments/london-1800-1875/v2/`: v2 sample outputs and launch script.
+- `experiments/london-1800-1875/v2mini-eval1/`: v2 evaluation scripts, bias report, and charts.
+- `scripts/`: reusable acquisition and dataset utilities.
+- `data/manifests/`: small, versioned source-document and Internet Archive ID lists; not the raw corpus.
+- `assets/`: brand assets and documentation images.
+- `docs/`: repository-maintenance documentation, including `REPOSITORY_STRUCTURE.md`.
 - `CITATION.cff`: citation metadata.
 - `CONTRIBUTING.md`: contribution guidance.
 
@@ -45,7 +47,7 @@ The documented corpus focus is London, 1800-1875. It contains public-domain book
 1. Choose a defensible historical time and geographic window.
 2. Collect public-domain plain-text sources that fall inside that window.
 3. Clean boilerplate, modern annotations, and OCR errors where possible.
-4. Train a tokenizer on the cleaned corpus (examples: `train_tokenizer.py` and `train_tokenizer_hf.py` under `london_1800_1850_v0/`).
+4. Train a tokenizer on the cleaned corpus (examples: `train_tokenizer.py` and `train_tokenizer_hf.py` under `experiments/london-1800-1850/v0/`).
 5. Train a causal language model from scratch using the tokenizer and corpus. This repository does not aim to be a general end-to-end training framework; consult the relevant model implementation or nanoGPT for architecture and training details.
 6. Evaluate outputs for fluency, period leakage, factual hallucination, OCR contamination, geographic bias, and temporal bias.
 

@@ -1,1 +1,13 @@
 .DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+data/raw/
+data/processed/
+outputs/
+checkpoints/
