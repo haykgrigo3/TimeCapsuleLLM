@@ -35,7 +35,6 @@ The documented corpus focus is London, 1800-1875. It contains public-domain book
 - `experiments/london-1800-1875/v0.5/`: v0.5 scripts, custom tokenizer artifacts, and example outputs.
 - `experiments/london-1800-1875/v2/`: v2 sample outputs and launch script.
 - `experiments/london-1800-1875/v2mini-eval1/`: v2 evaluation scripts, bias report, and charts.
-- `experiments/world-english-1800-1875/v3/`: reserved home for the next v3 training run.
 - `scripts/`: reusable acquisition and dataset utilities.
 - `data/manifests/`: small, versioned source-document and Internet Archive ID lists; not the raw corpus.
 - `assets/`: brand assets and documentation images.
